@@ -1,6 +1,6 @@
 export default function Start() {
   return (
-    <section className="flex flex-col md:flex-row md:mx-[100px] md:h-[500px] px-[30px] md:px-[0px] justify-center items-center">
+    <section className="flex flex-col md:flex-row md:mx-[100px] md:h-[500px] px-[30px] md:px-[0px] justify-center items-center mt-[100px]"        >
       <div className="w-full md:w-[483px]">
         <img
           src="./alinem1.png"

@@ -4,10 +4,10 @@ export default function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="w-full lg:px-16">
+    <header className="w-full lg:px-16 fixed top-0 bg-[var(--color-neutral)]">
       <div className="flex items-center justify-between px-4 py-3">
         <button className="lg:hidden text-2xl" onClick={() => setOpen(!open)}>
-          ☰
+          <img src="/menu_hamb.png" alt="" />
         </button>
 
         <div className="ml-auto lg:ml-0">
