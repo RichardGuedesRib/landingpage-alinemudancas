@@ -1,6 +1,6 @@
 export default function Start() {
   return (
-    <section className="flex flex-col md:flex-row md:mx-[100px] md:h-[500px] justify-center items-center">
+    <section className="flex flex-col md:flex-row md:mx-[100px] md:h-[500px] px-[30px] md:px-[0px] justify-center items-center">
       <div className="w-full md:w-[483px]">
         <img
           src="./alinem1.png"
@@ -9,8 +9,8 @@ export default function Start() {
         />
       </div>
 
-      <div className="flex flex-col justify-between p-6 md:w-[75%] md:h-[400px] items-center text-center gap-[35px]">
-        <p className="font-semibold text-2xl md:text-[40px] text-[var(--color-text-primary)]">
+      <div className="flex flex-col justify-between  p-6 md:w-[75%] md:h-[400px] items-center text-center gap-[35px]">
+        <p className="font-bold text-[28px] md:text-[40px] text-[var(--color-text-primary)]">
           Carregando histórias, montando <br className="hidden md:block" />
           novos começos
         </p>

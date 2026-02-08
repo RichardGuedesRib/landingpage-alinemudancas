@@ -2,7 +2,7 @@ import CardService from "./cards/CardService";
 
 export default function SectionServices() {
   return (
-    <section className="flex flex-col md:mx-[100px] md:h-[218px] justify-center items-center text-[var(--color-text-primary)] gap-[40px] mt-[40px]" >
+    <section className="flex flex-col md:mx-[100px] md:h-[218px] justify-center px-[30px] md:px-[0px] items-center text-[var(--color-text-primary)] gap-[40px] mt-[40px]" >
       <p className="w-full md:text-[40px] font-semibold text-center">
         Por que confiar a sua mudança à Aline Mudanças?
       </p>
