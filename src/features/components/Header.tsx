@@ -16,9 +16,9 @@ export default function Header() {
 
         {/* menu desktop */}
         <nav className="hidden lg:flex gap-[67px]">
-          <a href="#" className="text-[var(--color-text-primary)] font-bold tracking-[0.05em]">INÍCIO</a>
-          <a href="#" className="text-[var(--color-text-primary)] font-bold tracking-[0.05em]">SERVIÇOS</a>
-          <a href="#" className="text-[var(--color-text-primary)] font-bold tracking-[0.05em]">QUEM SOMOS</a>
+          <a href="#section_start" className="text-[var(--color-text-primary)] font-bold tracking-[0.05em]">INÍCIO</a>
+          <a href="#section_servicos" className="text-[var(--color-text-primary)] font-bold tracking-[0.05em]">SERVIÇOS</a>
+          <a href="#section_about" className="text-[var(--color-text-primary)] font-bold tracking-[0.05em]">QUEM SOMOS</a>
           <a href="#section_contato" className="text-[var(--color-text-primary)] font-bold tracking-[0.05em]">CONTATO</a>
         </nav>
       </div>
@@ -26,9 +26,9 @@ export default function Header() {
       {/* menu mobile */}
       {open && (
         <nav className="lg:hidden flex flex-col gap-4 px-4 pb-4 border-t">
-          <a href="#">INÍCIO</a>
-          <a href="#">SERVIÇOS</a>
-          <a href="#">QUEM SOMOS</a>
+          <a href="#section_start">INÍCIO</a>
+          <a href="#section_servicos">SERVIÇOS</a>
+          <a href="#section_about">QUEM SOMOS</a>
           <a href="#section_contato">CONTATO</a>
         </nav>
       )}

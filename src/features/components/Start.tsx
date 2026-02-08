@@ -1,6 +1,6 @@
 export default function Start() {
   return (
-    <section className="flex flex-col md:flex-row md:mx-[100px] md:h-[500px] px-[30px] md:px-[0px] justify-center items-center mt-[100px]"        >
+    <section id="section_start" className="flex flex-col md:flex-row md:mx-[100px] md:h-[500px] px-[30px] md:px-[0px] justify-center items-center mt-[100px]"        >
       <div className="w-full md:w-[483px]">
         <img
           src="./alinem1.png"
@@ -23,10 +23,10 @@ export default function Start() {
           para um novo capítulo.
         </p>
 
-        <span className="flex bg-[var(--color-tertiary)] text-[var(--color-neutral)] h-[56px] md:h-[64px] w-full md:w-[279px] items-center justify-center gap-[8px] rounded-[20px] p-[16px] hover:bg-[var(--color-primary)] hover:cursor-pointer transition-all duration-500 ease-in-out active:bg-[var(--color-primary)]">
+        <a href="#section_contato" className="flex bg-[var(--color-tertiary)] text-[var(--color-neutral)] h-[56px] md:h-[64px] w-full md:w-[279px] items-center justify-center gap-[8px] rounded-[20px] p-[16px] hover:bg-[var(--color-primary)] hover:cursor-pointer transition-all duration-500 ease-in-out active:bg-[var(--color-primary)]">
           <img src="./whatsappv1.png" alt="" className="w-[28px] h-[28px]" />
           <span>SOLICITAR ORÇAMENTO</span>
-        </span>
+        </a>
       </div>
     </section>
   );
