@@ -2,7 +2,7 @@ export default function AboutUs() {
   return (
     <section id="section_about" className="flex flex-col md:flex-row md:mx-[100px] md:h-[525px] justify-center items-center px-[30px] md:px-[0px] mt-[40px]">
       <div className="flex flex-col justify-between md:w-[75%] md:h-[460px] items-center gap-[10px]">
-        <p className="font-bold text-2xl md:text-[40px] text-[var(--color-text-primary)] m-[40px] md:m-[0px]">
+        <p className="font-bold text-[26px] md:text-[40px] text-[var(--color-text-primary)] m-[40px] md:m-[0px]">
           Sobre nós
         </p>
 

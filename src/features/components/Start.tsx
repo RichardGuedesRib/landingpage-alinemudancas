@@ -10,7 +10,7 @@ export default function Start() {
       </div>
 
       <div className="flex flex-col justify-between  p-6 md:w-[75%] md:h-[400px] items-center text-center gap-[35px]">
-        <p className="font-bold text-[28px] md:text-[40px] text-[var(--color-text-primary)]">
+        <p className="font-bold text-[24px] md:text-[40px] text-[var(--color-text-primary)]">
           Carregando histórias, montando <br className="hidden md:block" />
           novos começos
         </p>
