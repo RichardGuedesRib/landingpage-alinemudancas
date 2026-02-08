@@ -1,6 +1,6 @@
 export default function FormContact() {
   return (
-    <section className="flex flex-col md:mx-[100px] md:h-[636px] px-[20px] md:px-[0px] mt-[70px] gap-[15px] text-[var(--color-text-primary)]">
+    <section id="section_contato" className="flex flex-col md:mx-[100px] md:h-[636px] px-[20px] md:px-[0px] mt-[70px] gap-[15px] text-[var(--color-text-primary)]">
       <p className="font-bold text-2xl md:text-[40px] text-[var(--color-text-primary)] m-[40px] md:m-[0px] text-center">
         Entre em contato para <br className="md:hidden" /> obter mais
         informações
