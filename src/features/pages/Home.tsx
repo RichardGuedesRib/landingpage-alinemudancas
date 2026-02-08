@@ -1,4 +1,6 @@
 import AboutUs from "../components/AboutUs";
+import Footer from "../components/Footer";
+import FormContact from "../components/FormContact";
 import Header from "../components/Header";
 import Message from "../components/Message";
 import SectionServices from "../components/SectionServices";
@@ -12,6 +14,8 @@ export default function Home() {
       <SectionServices />
       <AboutUs />
       <Message />
+      <FormContact />
+      <Footer />
     </div>
   );
 }
