@@ -6,27 +6,25 @@ on:
       - main
 
 jobs:
-  build-and-deploy:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout código
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Instalar Node
+      - name: Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
 
-      - name: Instalar dependências
+      - name: Install deps
         run: npm install
 
-      - name: Build do projeto
+      - name: Build
         run: npm run build
 
       - name: Deploy Firebase
-        uses: FirebaseExtended/action-hosting-deploy@v0
-        with:
-          repoToken: ${{ secrets.GITHUB_TOKEN }}
-          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
-          projectId: lp-aline-mudancas
+        run: npx firebase-tools deploy --only hosting --project lp-aline-mudancas
+        env:
+          GOOGLE_APPLICATION_CREDENTIALS: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
