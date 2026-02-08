@@ -16,7 +16,9 @@ html, body, #root {
   --color-neutral: #F9F9F9;
 
   --color-text-primary: #154462;
-  --color-text-secondary: #F20F0A;
+  --color-text-secondary: #15446280;
+  --color-text-tertiary: #F20F0A;
+  --color-text-neutral: #F9F9F9;
 
   /* fontes */
   --font-main: "Inter", sans-serif;

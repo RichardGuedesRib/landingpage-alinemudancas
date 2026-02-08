@@ -11,7 +11,7 @@ export default function Header() {
         </button>
 
         <div className="ml-auto lg:ml-0">
-          <img src="/logo.png" alt="Aline Mudanças" className="h-10" />
+          <img src="/logo.png" alt="Aline Mudanças" className="h-auto w-[110px]" />
         </div>
 
         {/* menu desktop */}
